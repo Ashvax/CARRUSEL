@@ -1,0 +1,49 @@
+.carrusel{
+    display: flex;
+    justify-content: center;
+}
+
+#left,#right{
+    background: transparent;
+    border: none;
+    animation: all .5s ease-in-out;
+}
+#left:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+#right:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.imgContainer{
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer>img{
+    height: 100%;
+}
+
+.punto{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 1px solid white;
+}
+#puntitosContainer{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25%;
+}
+.puntoActual{
+    background-color: greenyellow;
+}
